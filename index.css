@@ -1,0 +1,1772 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+/*title bar*/
+.logo {
+  display: flex;
+  margin-left: 50px;
+}
+.icon {
+  margin-top: 25px;
+  height: 24px;
+  width: 24px;
+  margin-right: 10px;
+}
+.word {
+  margin-top: 28px;
+  font-family: "Nohemi", sans-serif;
+  font-size: 23.13px;
+  font-weight: 600px;
+}
+.z {
+  color: blue;
+}
+.title-bar {
+  background-color: white;
+  display: flex;
+  width: 1440px;
+  height: 70px;
+}
+.more {
+  display: flex;
+  margin-left: 300px;
+  margin-top: 10px;
+}
+.more a {
+  text-decoration: none;
+  color: grey;
+  padding: 15px;
+}
+.more a:hover {
+  color: black;
+}
+
+.title-bar2 {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 250px;
+  z-index: 999;
+  background-color: rgba(255, 255, 255, 0.377);
+  backdrop-filter: blur(20px);
+  box-shadow: 10px 0 10px rgba(0, 0, 0, 0.1);
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.more1 {
+  display: flex;
+  flex-direction: column;
+}
+.more1 a {
+  display: flex;
+  text-decoration: none;
+  padding: 25px;
+  padding-left: 10px;
+  color: black;
+}
+
+.more1 a:hover {
+  color: wheat;
+}
+
+.sign5 {
+  padding-left: 40px;
+}
+
+.sign5 a {
+  display: flex;
+  text-decoration: none;
+  padding: 20px;
+}
+.sign-up2 {
+  width: 75px;
+  height: 10px;
+  background-color: rgb(78, 78, 218);
+  color: white;
+  border-radius: 5px;
+}
+.sign-up2:hover {
+  color: white;
+  background-color: rgb(36, 196, 97);
+}
+
+.sign {
+  margin-left: 250px;
+  text-decoration: none;
+  margin-top: 25px;
+}
+.sign a {
+  text-decoration: none;
+  padding: 10px;
+}
+.sign-in {
+  color: black;
+}
+.sign-in:hover {
+  color: rgb(69, 228, 49);
+}
+.sign-up {
+  width: 40px;
+  height: 10px;
+  background-color: rgb(78, 78, 218);
+  color: white;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.sign-up:hover {
+  color: white;
+  background-color: rgb(78, 207, 207);
+}
+.men {
+  margin-top: 20px;
+  display: none;
+  margin-left: -450px;
+}
+.icon7 {
+  height: 50px;
+  margin-top: 10px;
+}
+
+/*first page*/
+.firstpage {
+  display: flex;
+  width: 1440px;
+  height: 759px;
+  top: 80px;
+  background: linear-gradient(109.68deg, #2752e7 0%, #0b2271 87.47%);
+  overflow: hidden;
+}
+.intro {
+  padding-top: 100px;
+  padding-left: 80px;
+  padding-right: 0px;
+}
+.welcome1 {
+  width: 430px;
+  height: 150px;
+  font-family: "Yukita Sans", sans-serif;
+  color: white;
+  font-weight: 600px;
+  font-size: 38px;
+  line-height: 125%;
+  letter-spacing: 0;
+  margin: 10px;
+}
+.welcome2 {
+  font-size: 20px;
+  color: white;
+  font-weight: 400px;
+  width: 520px;
+  margin-bottom: 30px;
+}
+.email {
+  width: 300px;
+  padding: 15px;
+  border-radius: 10px;
+  border-color: white;
+  margin-right: 10px;
+}
+.start {
+  width: 160px;
+  padding: 15px;
+  background-color: #2752e7;
+  color: white;
+  border-radius: 10px;
+  border-color: #2752e7;
+}
+
+/*input-section*/
+.input-section {
+  width: 491px;
+  height: 491px;
+  background-color: #ffffff33;
+  margin-top: 94px;
+  border-radius: 20px;
+  opacity: 80%;
+  padding-left: 44.57px;
+  position: relative;
+  z-index: 2;
+}
+
+.converter {
+  width: 286px;
+  height: 34px;
+  padding-top: 44.57px;
+  padding-left: 44.57;
+  font-size: 24px;
+  font-weight: 600px;
+  line-height: 60%;
+  letter-spacing: 0px;
+  font-family: "Yukita", sans-serif;
+  color: white;
+}
+.amount {
+  width: 77px;
+  height: 22px;
+  font-family: "Yukita", sans-serif;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0px;
+  color: white;
+}
+
+.input-dropdown-container {
+  display: flex;
+  width: 403.35px;
+  height: 44.57px;
+  border: 1px solid #f5f5f5;
+  border-radius: 8.91px;
+  overflow: hidden;
+  position: relative;
+}
+
+.input-dropdown-container input,
+.input-dropdown-container select {
+  border: none;
+  padding: 8px 12px;
+  font-size: 16px;
+  outline: none;
+}
+
+.input-dropdown-container input {
+  width: 400px;
+  position: relative;
+  background-color: #f5f5f5;
+}
+
+.select-box{
+  display: flex;
+  width: 175px;
+  height: 45px;
+  align-items: center;
+  border-radius: 5px;
+  justify-content: center;
+  border: 1px solid #999;
+}
+
+.select-box img{
+  max-width: 21px;
+}
+
+.select-box select{
+  width: auto;
+  font-size: 20px;
+  background-color: transparent;
+  margin: 0 -5px 0 5px;
+}
+
+.select-box select::-webkit-scrollbar{
+  width: 8px;
+}
+
+.select-box select::-webkit-scrollbar-track{
+  background: #fff;
+}
+
+.select-box select::-webkit-scrollbar-thumb{
+  background: #888;
+  border-radius: 8px;
+  border-radius: 2px solid #ffffff;
+}
+
+
+/* Short divider using pseudo-element */
+.input-dropdown-container::after {
+  content: "";
+  position: absolute;
+  height: 60%; /* shorter height */
+  width: 1px;
+  background-color: #ccc;
+  top: 20%; /* center it vertically */
+  left: 80px; /* match the input width */
+}
+
+.input-dropdown-container select {
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+
+.convert {
+  width: 91px;
+  height: 17px;
+  font-family: "Yukita", sans-serif;
+  font-weight: 400px;
+  font-size: 11.89px;
+  line-height: 140%;
+  letter-spacing: 0px;
+  color: white;
+}
+
+.date1 {
+  width: 34px;
+  height: 17px;
+  font-family: "Yukita", sans-serif;
+  font-size: 11.89px;
+  line-height: 140%;
+  letter-spacing: 0px;
+  font-weight: 400px;
+}
+.calendar {
+  width: 403.35px;
+  height: 44.57px;
+  border-radius: 9px;
+  background-color: #f5f5f5;
+  border-color: white;
+}
+.Gbp {
+  width: 116px;
+  height: 12px;
+  font-family: "Yukita", sans-serif;
+  padding-top: 20px;
+  line-height: 140%;
+  letter-spacing: 0px;
+  color: white;
+  font-weight: 500px;
+  font-size: 14px;
+}
+
+.arrow {
+  position: relative;
+  z-index: 3;
+  width: 122px;
+  height: 152px;
+  top: 500px;
+  left: 50px;
+}
+.tc {
+  position: relative;
+  z-index: 1;
+  width: 122px;
+  height: 152px;
+  right: 80px;
+}
+/* second page*/
+.cryptos {
+  display: flex;
+  width: 1440px;
+  height: 82px;
+  gap: 130px;
+  padding-top: 50px;
+  padding-left: 80px;
+}
+.binance {
+  width: 151.88px;
+  height: 30.38px;
+}
+.vector {
+  width: 139.74px;
+  height: 24.75px;
+}
+.bitcoin {
+  width: 98.6px;
+  height: 25.97px;
+}
+.tether {
+  width: 122.84px;
+  height: 33.16px;
+}
+.bitmex {
+  width: 130.19px;
+  height: 21.19px;
+}
+
+.numbers {
+  margin-top: 50px;
+  margin-left: 80px;
+  padding-left: 80px;
+  width: 1100px;
+  display: flex;
+  height: 180px;
+  gap: 250px;
+  border: 2px solid;
+  border-color: #4d4b4b1f;
+  border-radius: 6px;
+}
+.joined {
+  text-align: center;
+}
+.number1 {
+  font-family: "Yukita", sans-serif;
+  font-size: 50px;
+  font-weight: 300;
+  margin-bottom: 8px;
+}
+.info1 {
+  color: grey;
+  font-family: "Yukita", sans-serif;
+  margin-top: 0;
+}
+.users {
+  text-align: center;
+}
+.number2 {
+  font-family: "Yukita", sans-serif;
+  font-size: 50px;
+  font-weight: 300;
+  margin-bottom: 8px;
+}
+.info2 {
+  color: grey;
+  font-family: "Yukita", sans-serif;
+  margin-top: 0;
+}
+.company {
+  text-align: center;
+}
+.number3 {
+  font-family: "Yukita", sans-serif;
+  font-size: 50px;
+  font-weight: 300;
+  margin-bottom: 8px;
+}
+.info3 {
+  color: grey;
+  font-family: "Yukita", sans-serif;
+  margin-top: 0;
+}
+
+.trust {
+  display: flex;
+  margin-top: 50px;
+  padding-left: 80px;
+}
+.about {
+  width: 440px;
+  height: 614px;
+  padding-right: 20px;
+  padding-top: 10px;
+}
+.head {
+  font-family: "Yukita", sans-serif;
+  width: 488px;
+  height: 180px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 125%;
+  letter-spacing: 0px;
+}
+.uno {
+  width: 35px;
+  height: 30px;
+  font-family: "Yukita", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 125%;
+  letter-spacing: 0px;
+  color: #d0dbff;
+}
+.platforms {
+  width: 349px;
+  height: 30px;
+  font-family: "Yukita", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 125%;
+  color: #050e2c;
+  margin-bottom: 0px;
+}
+.sync {
+  width: 359px;
+  height: 72px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  list-style: 0px;
+  color: #626262;
+  margin-left: 24px;
+  margin-top: 8px;
+}
+.duos {
+  width: 35px;
+  height: 30px;
+  font-family: "Yukita", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 125%;
+  letter-spacing: 0px;
+  color: #d0dbff;
+}
+.focus {
+  width: 349px;
+  height: 30px;
+  font-family: "Yukita", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 125%;
+  color: #050e2c;
+  margin-bottom: 0px;
+}
+.ads {
+  width: 359px;
+  height: 24px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  list-style: 0px;
+  color: #626262;
+  margin-left: 24px;
+  margin-top: 8px;
+}
+.tres {
+  width: 35px;
+  height: 30px;
+  font-family: "Yukita", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 125%;
+  letter-spacing: 0px;
+  color: #d0dbff;
+}
+.security {
+  width: 349px;
+  height: 30px;
+  font-family: "Yukita", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 125%;
+  color: #050e2c;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.privacy {
+  width: 359px;
+  height: 72px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  list-style: 0px;
+  color: #626262;
+  margin-left: 24px;
+  margin-top: 8px;
+}
+.trust-pic {
+  width: 775px;
+  height: 806px;
+}
+
+/*3rd page*/
+.third-page {
+  width: 1440px;
+  padding-top: 100px;
+  background: #d0dbff;
+}
+.relatives {
+  display: flex;
+  gap: 40px;
+}
+.others {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.portfolio {
+  width: 491px;
+  height: 693px;
+  background-color: #091951;
+  padding-top: 50px;
+  padding-left: 25px;
+  padding-right: 0px;
+  border-radius: 20px;
+  margin-left: 80px;
+}
+.container1 {
+  display: flex;
+  width: 350px;
+  height: 339px;
+  background-color: #f3f3f3;
+  position: relative;
+  z-index: 3;
+  padding-right: 100px;
+  border-radius: 20px;
+}
+.trade {
+  width: 208.4px;
+  height: 84.91px;
+  top: 200px;
+  left: 100px;
+  position: relative;
+  z-index: 2;
+}
+.phone13 {
+  width: 185.21px;
+  height: 339.57px;
+  position: relative;
+  z-index: 1;
+}
+.today {
+  width: 407px;
+  height: 100px;
+  font-family: "Yukita", sans-serif;
+  font-size: 40.39px;
+  font-weight: 700;
+  line-height: 125%;
+  letter-spacing: 0px;
+  color: white;
+}
+.digital {
+  width: 422.45px;
+  height: 66px;
+  font-family: "Inter", sans-serif;
+  font-size: 15.15px;
+  line-height: 145%;
+  font-weight: 400;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+.fast {
+  border-radius: 20px;
+  display: flex;
+  gap: 50px;
+  width: 687px;
+  height: 337px;
+  background-color: #f3de95;
+}
+.container2 {
+  display: flex;
+  width: 180px;
+  height: 270px;
+  background-color: #f3f3f3;
+  position: relative;
+  z-index: 3;
+  border-radius: 14.4px;
+  left: 30px;
+  top: 33px;
+}
+.zig {
+  width: 137px;
+  height: 269px;
+  position: relative;
+}
+.sell {
+  width: 141px;
+  height: 117px;
+  position: relative;
+  right: 100px;
+}
+.light {
+  width: 325px;
+  height: 158px;
+  top: 50px;
+}
+.lightning {
+  width: 326px;
+  height: 88px;
+  font-family: "Yukita", sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 125%;
+  color: #050e2c;
+  letter-spacing: 0px;
+}
+.exchange {
+  width: 326px;
+  height: 60px;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  line-height: 145%;
+  letter-spacing: 0px;
+  color: #050e2c;
+  opacity: 70%;
+}
+
+.secret {
+  display: flex;
+  gap: 50px;
+  width: 687px;
+  height: 337px;
+  background-color: #f395d9;
+  border-radius: 20px;
+}
+.container3 {
+  width: 251px;
+  height: 270px;
+  background-color: #f3f3f3;
+  top: 33px;
+  left: 30px;
+  position: relative;
+  border-radius: 14.4px;
+}
+.account {
+  width: 128.06px;
+  height: 259.13px;
+  position: relative;
+  top: 11px;
+  left: 21px;
+}
+.verify {
+  width: 120.07px;
+  height: 121.31px;
+  position: absolute;
+  top: 120.7px;
+  left: 65.83px;
+}
+.day {
+  width: 326px;
+  height: 158.39px;
+  top: 33px;
+  gap: 10.39px;
+}
+.one {
+  width: 326px;
+  height: 88px;
+  font-family: "Yukita", sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 125%;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+.safety {
+  width: 326px;
+  height: 60px;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 145%;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 70%;
+}
+
+.just {
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 500px;
+}
+.few {
+  width: 515px;
+  height: 120px;
+  margin-bottom: 0px;
+  font-family: "Yukita", sans-serif;
+  font-size: 700;
+  font-size: 48px;
+  line-height: 125%;
+  letter-spacing: 0px;
+  color: #050e2c;
+}
+.var {
+  width: 574px;
+  height: 26px;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: 145%;
+  letter-spacing: 0px;
+  color: #050e2c;
+  opacity: 70%;
+}
+
+.container4 {
+  display: flex;
+  gap: 40px;
+  margin-left: 80px;
+  padding-bottom: 100px;
+}
+.friends {
+  text-align: center;
+  width: 383px;
+  height: 413.62px;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+.lock {
+  margin-top: 50px;
+  width: 197.9px;
+  height: 124px;
+}
+.up {
+  padding-left: 120px;
+  width: 109px;
+  height: 30px;
+  font-family: "Yukita", sans-serif;
+  font-size: 24px;
+  line-height: 125%;
+  letter-spacing: 0px;
+  font-weight: 700;
+  color: #2c3131;
+}
+.wallet {
+  width: 335px;
+  height: 72px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0px;
+  color: #626262;
+  padding-left: 20px;
+}
+
+.fund {
+  text-align: center;
+  width: 383px;
+  height: 413.62px;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+.kite {
+  width: 141px;
+  height: 159.15px;
+  margin-top: 50px;
+}
+.bank {
+  width: 72px;
+  height: 30px;
+  font-family: "Yukita", sans-serif;
+  font-size: 700;
+  font-size: 24px;
+  line-height: 125%;
+  letter-spacing: 0px;
+  color: #2c3131;
+  padding-left: 150px;
+  margin-top: 0px;
+}
+.prefer {
+  width: 335px;
+  height: 72px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0px;
+  color: #626262;
+  padding-left: 20px;
+}
+
+.ios {
+  text-align: center;
+  width: 383px;
+  height: 413.62px;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+.gift {
+  width: 121.58px;
+  height: 140px;
+  margin-top: 50px;
+}
+.cry {
+  width: 163px;
+  height: 30px;
+  padding-left: 100px;
+  font-family: "Yukita", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 125%;
+  color: #2c3131;
+}
+.set {
+  width: 335px;
+  height: 72px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0px;
+  color: #626262;
+  padding-left: 20px;
+}
+
+/*masonry grid*/
+.mason {
+  margin-left: 20px;
+  width: 1340px;
+  background-color: #ffffff;
+  position: relative;
+  max-height: 90vh;
+  overflow-y: scroll;
+  mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
+}
+.grid {
+  column-count: 4;
+  column-gap: 10px;
+  padding: 1rem;
+}
+.comments {
+  margin-top: 100px;
+  margin-left: 450px;
+  font-family: "Yukita", sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 100px;
+}
+.mini {
+  width: 282px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid#e3e3e3;
+  border-radius: 10px;
+  break-inside: avoid;
+  background-color: #ffffff;
+}
+.mini img {
+  width: 40px;
+  height: 40px;
+}
+.bio1 {
+  display: flex;
+  width: 242px;
+  height: 42px;
+  gap: 12px;
+}
+.mini-pro {
+  display: flex;
+  flex-direction: column;
+}
+.ceo {
+  width: 63px;
+  height: 22px;
+  margin: 0px;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 155%;
+  letter-spacing: 0px;
+  color: #2c3131;
+}
+.design {
+  width: 157px;
+  height: 20px;
+  margin: 0px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 125%;
+  letter-spacing: 0px;
+  color: #a9a9a9;
+}
+.agency {
+  width: 272px;
+  height: 168px;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 0px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 155%;
+  letter-spacing: 0px;
+  color: #626262;
+}
+
+.take {
+  display: flex;
+  width: 1200px;
+  height: 328px;
+  background-color: #2752e7;
+  border-radius: 20px;
+  margin-left: 80px;
+  margin-top: 100px;
+}
+.none {
+  padding-left: 84px;
+}
+.invest {
+  width: 686px;
+  height: 104px;
+  font-family: "Yukita", sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 130%;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+.first {
+  width: 169px;
+  height: 60px;
+  border-radius: 12px;
+  border-color: white;
+}
+.first:hover {
+  background-color: green;
+  color: white;
+  cursor: pointer;
+}
+
+.btc {
+  width: 201px;
+  height: 201px;
+  margin-left: 50px;
+  z-index: 2;
+}
+.eth {
+  width: 150px;
+  height: 150px;
+}
+.luna {
+  width: 134px;
+  height: 134px;
+}
+
+/*final part*/
+.fin {
+  margin-top: 100px;
+  margin-left: 80px;
+  width: 1233px;
+  height: 809.1px;
+  border-radius: 19.36px;
+  background-color: #2752e7;
+}
+.container6 {
+  padding: 50px;
+  padding-top: 80px;
+  display: flex;
+  gap: 130px;
+  color: #ffffff;
+}
+.learn {
+  width: 200px;
+}
+.products {
+  width: 200px;
+}
+
+.hori {
+  width: 1163.32px;
+}
+.know {
+  height: 30px;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 23.3px;
+  font-family: "Yukita", sans-serif;
+  text-align: center;
+}
+.copy {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 15.49px;
+  line-height: 150%;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #ffffff;
+  opacity: 80%;
+}
+.word2 {
+  width: 143.77px;
+  height: 40px;
+  font-family: "Nohemi", sans-serif;
+  font-weight: 600;
+  font-size: 31.82px;
+  line-height: 130%;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+.colearn{
+  display: flex;
+  gap: 100px;
+}
+.pod{
+  display: flex;
+  gap: 10px;
+}
+.logo2 {
+  text-align: center;
+}
+
+/*Responsive CSS mobile phone*/
+@media (max-width: 375px) {
+  .hideOnmobile {
+    display: none;
+  }
+  .men {
+    display: block;
+    width: 32px;
+    height: 32px;
+  }
+  .sign-in,
+  .sign-up {
+    display: none;
+  }
+  .title-bar2 {
+    width: 50%;
+    margin-right: 750px;
+  }
+  .title-bar {
+    height: 70px;
+    width: 375px;
+  }
+  .logo {
+    width: 155px;
+    height: 38px;
+    margin-left: 30px;
+  }
+  .intro {
+    padding: 0px;
+  }
+  .welcome1 {
+    width: 337px;
+    height: 130px;
+    margin-top: 100px;
+    margin-left: 8px;
+    font-family: "Yukita", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 125%;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+  .welcome2 {
+    width: 340px;
+    height: 44px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-left: 10px;
+  }
+  .ready {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 132px;
+    margin-left: 10px;
+  }
+  .email {
+    width: 300px;
+    height: 20px;
+  }
+  .start {
+    width: 340px;
+    height: 50px;
+  }
+  .firstpage {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 956px;
+  }
+  .input-section {
+    width: 330px;
+    height: 343px;
+    margin-top: 0px;
+    padding-left: 22px;
+    margin-top: 50px;
+    border-radius: 14px;
+  }
+  .arrow {
+    display: none;
+  }
+  .input-dropdown-container {
+    width: 300px;
+    height: 32px;
+  }
+  .tc {
+    display: none;
+  }
+  .converter {
+    width: 200px;
+    height: 23px;
+    padding-top: 32px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: "Yukita", sans-serif;
+    font-weight: 600;
+    font-size: 16.77px;
+    line-height: 140%;
+    letter-spacing: 0px;
+  }
+  .amount {
+    margin: 0;
+    width: 54px;
+    height: 16px;
+    font-family: "Yukita", sans-serif;
+    font-weight: 400;
+    font-size: 11.18px;
+    line-height: 140%;
+    letter-spacing: 0px;
+  }
+  .calendar {
+    width: 300px;
+    height: 32px;
+  }
+  .Gbp {
+    width: 81px;
+    height: 8px;
+    font-family: "Yukita", sans-serif;
+    font-weight: 500;
+    font-size: 9.78px;
+    line-height: 140%;
+    letter-spacing: 0px;
+  }
+  .cryptos {
+    display: block;
+    width: 360px;
+    height: 63px;
+    margin-left: 20px;
+    margin-top: 50px;
+    padding: 0px;
+  }
+  .binance {
+    width: 95px;
+    height: 19px;
+    padding: 10px;
+  }
+  .vector {
+    width: 84px;
+    height: 15px;
+    padding: 10px;
+    padding-right: 20px;
+  }
+  .bitcoin {
+    width: 74px;
+    height: 15px;
+    padding: 10px;
+  }
+  .tether {
+    width: 74px;
+    height: 20px;
+    padding: 10px;
+    padding-left: 80px;
+    padding-right: 30px;
+  }
+  .bitmex {
+    width: 74px;
+    height: 13px;
+    padding: 10px;
+  }
+  .numbers {
+    display: block;
+    width: 327px;
+    height: 414px;
+    margin-top: 66px;
+    margin-left: 24px;
+    border-radius: 20px;
+    border: 1px solid #e3e3e3;
+    padding: 0;
+  }
+  .number1 {
+    width: 89px;
+    height: 50px;
+    font-family: "Yukita", sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 125%;
+    letter-spacing: 0px;
+    margin-left: 40px;
+  }
+  .info1 {
+    width: 200px;
+    height: 24px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 135%;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+  .joined {
+    width: 161px;
+    height: 74px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 60px;
+  }
+  .users {
+    width: 195px;
+    height: 74px;
+    margin-left: 60px;
+  }
+  .number2 {
+    width: 89px;
+    height: 50px;
+    font-family: "Yukita", sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 125%;
+    letter-spacing: 0px;
+    margin-left: 40px;
+  }
+  .info2 {
+    width: 210px;
+    height: 24px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 135%;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+  .company {
+    width: 230px;
+    height: 74px;
+    margin-left: 50px;
+  }
+  .number3 {
+    width: 117px;
+    height: 50px;
+    font-family: "Yukita", sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 125%;
+    letter-spacing: 0px;
+    margin-left: 50px;
+  }
+  .info3 {
+    width: 250px;
+    height: 24px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 135%;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+
+  .trust {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+  }
+  .trust-pic {
+    order: 1;
+    width: 400px;
+    height: 396px;
+    margin: 0;
+  }
+  .about {
+    order: 2;
+    width: 327px;
+    height: 692px;
+    margin-left: 24px;
+  }
+  .head {
+    width: 327px;
+    height: 120px;
+    font-family: "Yukita", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 125%;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+  .platforms {
+    display: flex;
+    flex-direction: column;
+  }
+  .uno {
+    padding-bottom: 10px;
+  }
+  .sync {
+    width: 327px;
+    height: 96px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0px;
+    margin-top: 40px;
+    margin-left: 0;
+  }
+  .focus {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+  }
+  .duos {
+    padding-bottom: 10px;
+  }
+  .ads {
+    width: 327px;
+    height: 68px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0px;
+    margin-top: 40px;
+    margin-left: 0;
+  }
+  .security {
+    display: flex;
+    flex-direction: column;
+  }
+  .tres {
+    padding-bottom: 10px;
+  }
+  .privacy {
+    width: 327px;
+    height: 68px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0px;
+    margin-top: 40px;
+    margin-left: 0;
+  }
+  .third-page {
+    width: 375px;
+    height: 3350px;
+    padding-top: 0;
+  }
+  .relatives {
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .portfolio {
+    width: 320px;
+    height: 590px;
+    margin-left: 14px;
+    border-radius: 16px;
+    margin-top: 40px;
+    padding-left: 20px;
+  }
+  .container1 {
+    width: 273.5px;
+    height: 306.39px;
+    border-radius: 11.14px;
+    padding-right: 0px;
+  }
+  .phone13 {
+    width: 140.25px;
+    height: 303.34px;
+    right: 30px;
+  }
+  .trade {
+    width: 167.12px;
+    height: 82.71px;
+    top: 140px;
+  }
+  .create {
+    width: 320px;
+    height: 212px;
+  }
+  .digital {
+    width: 310px;
+    height: 120px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 135%;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #ffffff;
+    opacity: 70%;
+  }
+  .today {
+    width: 320px;
+    height: 80px;
+    font-family: "Yukita", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 125%;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+  .fast {
+    display: flex;
+    flex-direction: column;
+    width: 337px;
+    height: 599px;
+    margin-left: 14px;
+  }
+  .container2 {
+    width: 273.5px;
+    height: 306.39px;
+  }
+  .zig {
+    width: 157.65px;
+    height: 305px;
+  }
+  .lightning {
+    width: 327px;
+    height: 80px;
+    font-family: "Yukita", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 125%;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  .exchange {
+    width: 327px;
+    height: 96px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 135%;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .secret {
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    height: 570px;
+    margin-left: 14px;
+    border-radius: 16px;
+  }
+  .container3 {
+    width: 273.52px;
+    height: 295.39px;
+  }
+  .account {
+    height: 290px;
+  }
+  .one {
+    width: 320px;
+    height: 80px;
+    font-family: "Yukita", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 125%;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .safety {
+    width: 320px;
+    height: 72px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 135%;
+    letter-spacing: 0px;
+    text-align: center;
+    opacity: 70%;
+  }
+  .just{
+    margin-left: 14px;
+    width: 327px;
+    height: 140px;
+  }
+  .few{
+    width: 327px;
+    height: 80px;
+    font-family: 'Yukita', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 125%;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+  .var{
+    width: 327px;
+    height: 48px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 135%;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+  .container4{
+    display: flex;
+    flex-direction: column;
+    margin-left: 14px;
+  }
+  .friends{
+    width: 327px;
+    height: 336px;
+    margin-top: 20px;
+    border-radius: 20px;
+  }
+  .lock{
+    width: 168.21px;
+    height: 105px;
+  }
+  .up{
+    width: 100px;
+    height: 30px;
+    margin-top: 0;
+  }
+  .wallet{
+    width: 290px;
+    height: 72px;
+    font-family: 'Inter' ,sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+  .fund{
+    width: 327px;
+    height: 336px;
+    border-radius: 20px;
+  }
+  .kite{
+    width: 120px;
+    height: 135px;
+  }
+  .bank{
+    padding-left: 130px;
+    margin-bottom: 0;
+  }
+  .prefer{
+    width: 290px;
+    height: 72px;
+    font-family: 'Inter',sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+  .ios{
+    width: 327px;
+    height: 376px;
+    border-radius: 20px;
+  }
+  .gift{
+    width: 170px;
+    height: 170px;
+  }
+  .cry{
+    width: 149px;
+    height: 30px;
+    font-family: 'Yukita' , sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 135%;
+    letter-spacing: 0px;
+    margin-top: 0;
+  }
+  .set{
+    width: 287px;
+    height: 72px;
+    font-family: 'Inter' , sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0px;
+    margin-top: 0;
+    text-align: center;
+  }
+  .comments{
+   display: none;
+  }
+  .mason{
+    display: none;
+  }
+  .take{
+    margin-left: 0;
+    width: 375px;
+    height: 342px;
+    border-radius: 0;
+  }
+  .pics{
+    display: none
+  }
+  .none{
+    padding-left: 14px;
+  }
+  .invest{
+    width: 327px;
+    height: 152px;
+    font-family: 'Yukita', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 125%;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-top: 72px;
+  }
+  .first{
+    width: 327px;
+    height: 60px;
+    border-radius: 10px;
+  }
+  .fin{
+    width: 346.92px;
+    height: 1000.36px;
+    border-radius: 16.4px;
+    margin-left: 14px;
+  }
+  .container6{
+    width: 268.2px;
+    padding-top: 50px;
+    height: 587.31px;
+    display: block;
+  }
+  .comp{
+    width: 103px;
+    height: 235.77px;
+    gap: 9.84px;
+  }
+  .pod{
+    display: flex;
+    gap: 50px;
+    width: 268.19px;
+    height: 182.65px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 13.12px;
+    line-height: 150%;
+    letter-spacing: 0px;
+    margin-top: 90px;
+  }
+  .colearn{
+    display: flex;
+    gap: 50px;
+    width: 244px;
+    height: 235.77px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 13.12px;
+    line-height: 150%;
+    letter-spacing: 0px;
+  }
+  .resources{
+    width: 79px;
+    height: 130px;
+    margin-top: 70px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 13.12px;
+    line-height: 150%;
+    letter-spacing: 0px;
+  }
+  .hori{
+    width: 268.19px;
+    color: #cfd1d4;
+    margin-top: 110px;
+  }
+  .know{
+    width: 307.55px;
+    height: 38px;
+    font-family: 'Yukita' ,sans-serif;
+    font-weight: 500;
+    font-size: 14.52px;
+    line-height: 130%;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-left: 20px;
+  }
+  .xo{
+    width: 20.33px;
+    height: 20.33px;
+  }
+  .word2{
+    width: 88.55px;
+    height: 24.59px;
+    font-family: 'Nohemi', sans-serif;
+    font-weight: 600;
+    font-size: 19.6px;
+    line-height: 130%;
+    letter-spacing: 0px;
+  }
+  .copy{
+    width: 208.19px;
+    height: 40px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 13.12px;
+    line-height: 150%;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-left: 65px;
+  }
+}
